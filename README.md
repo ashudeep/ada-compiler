@@ -15,6 +15,7 @@ VERY IMPORTANT -
 	(We have tested it on Mars4.3 mips simulator)
 	
 -----------------------------------------------------------------------------------------------------		
+
 FEATURES OF COMPILER-
 1. expression
 2. for loop
@@ -26,6 +27,7 @@ FEATURES OF COMPILER-
 8. Simple package structure.
 9. error handling
 10. generation of three address code and assembly code
+
 -----------------------------------------------------------------------------
 Important files and folders-
 1. ada_compiler_source.py 			- Contains the lexer and parser phase of our compiler

@@ -10,7 +10,7 @@ import three_addr_generator
 #file_name=input("Input File: "); #give input in double quotes in python 2.7 and direcly with out quotes in py3.3
 #path="D:/Dropbox/Compiler Project/Project/sample_codes/final_examples/test/"
 #path="C:/Users/welcome/Dropbox/Compiler Project/Project/Final Submission/final_examples/test/"
-path="C:/Users/Ashudeep Singh/Dropbox/Compiler Project/Project/Final Submission/final_examples/test/"
+path=sys.argv[1]#"C:/Users/Ashudeep Singh/Dropbox/Compiler Project/Project/Final Submission/final_examples/test/"
 
 #path="./all/"
 for f in os.listdir(path):
