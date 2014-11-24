@@ -1,0 +1,122 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS\\
+\usepackage[top=0.2in, bottom=0.5in, left=0.7in, right=0.70in]{geometry}
+
+
+ % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+
+% \geometry{margin=1.2in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+%\usepackage{sectsty}
+%\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+\usepackage{titling}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\title{\bf{CS 335: Compiler Design Course Project}\\
+Ada Version 3\\
+Group 12\\}
+\subtitle{Guide: Prof. S. K. Aggarwal\\Mentor TA: Ajay Kumar}
+\author{
+Ashudeep Singh\\
+10162
+\and
+Chandra Prakash\\
+10209
+\and 
+Deepak Pathak\\
+10222
+\and
+Kaustubh Tapi\\
+10346
+}
+\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\begin{document}
+\maketitle
+
+\section{Aim of the project}
+To build a compiler for Ada Programming Language supporting basic arithmetic and relational operations, conditional statements, iterative statements, procedures, functions, object-oriented programming features like classes with inheritance and polymorphism. Error handling and type checking are also to be handled.
+\section{What has been achieved}
+We have implemented the following features of Ada language using PLY (Python-Lex-Yacc) 
+\begin{itemize}
+\item	basic data types
+\item	arithmetic and relational operators
+\item	if-then-else statements
+\item	iterative statements (for and while loops)
+\item	one dimensional and multi-dimensional arrays
+\item	procedures, recursive procedures(self and mutual), nested procedures
+\begin{itemize}
+\item Call by value
+\item Call by reference.
+\end{itemize}
+%\item	objects : attributes, functions, inheritance, access modifiers
+\item Simple Classes (i.e. packages) with procedures (Nesting in packages is not handled)
+\item	error handling and type checking
+%\item	semantic analysis of case statements
+\item	Printing outputs as integers and characters.
+\item	Generation of 3 address code and corresponding SPIM code (Standard short circuiting approach has been implemented using back-patching for 3-address code generation)
+
+\end{itemize}
+\section{What has not been achieved}
+\begin{itemize}
+\item Case conditional statements
+\item Object oriented features like polymorphism, inheritance etc
+\item Access types
+\item Abstract types, interfaces and over-riding
+\end{itemize}
+\section*{Contributions}
+All the group members have contributed equally (25\% each) to the project.
+
+\end{document}

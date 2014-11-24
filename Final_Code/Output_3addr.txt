@@ -1,0 +1,76 @@
+% Full Three Address Generated Code is here.
+
+label 0 :
+0 :  package_begin Person None None
+label 1 :
+1 :  proc_begin Swap None None
+label 2 :
+2 :  = A None Temp
+label 3 :
+3 :  = B None A
+label 4 :
+4 :  = Temp None B
+label 5 :
+5 :  = 120 None C
+label 6 :
+6 :  - A B temp1
+label 7 :
+7 :  = temp1 None D
+label 8 :
+8 :  * D A temp2
+label 9 :
+9 :  = temp2 None E
+label 10 :
+10 :  syscall print_int A None
+label 11 :
+11 :  syscall print_int B None
+label 12 :
+12 :  syscall print_int C None
+label 13 :
+13 :  syscall print_int D None
+label 14 :
+14 :  syscall print_int E None
+label 15 :
+15 :  return D,E None None
+label 16 :
+16 :  proc_begin Proced2 None None
+label 17 :
+17 :  = 5 None Counter
+label 18 :
+18 :  = 3 None Counter2
+label 19 :
+19 :  = 9 None Counter3
+label 20 :
+20 :  = 10 None Counter4
+label 21 :
+21 :  = 12 None Counter5
+label 22 :
+22 :  + Counter 1 temp3
+label 23 :
+23 :  = temp3 None Counter
+label 24 :
+24 :  param Counter5 out None
+label 25 :
+25 :  param Counter4 out None
+label 26 :
+26 :  param Counter3 None None
+label 27 :
+27 :  param Counter2 None None
+label 28 :
+28 :  param Counter None None
+label 29 :
+29 :  call Swap 5 None
+label 30 :
+30 :  syscall print_newline None None
+label 31 :
+31 :  syscall print_int Counter None
+label 32 :
+32 :  syscall print_int Counter2 None
+label 33 :
+33 :  syscall print_int Counter3 None
+label 34 :
+34 :  syscall print_int Counter4 None
+label 35 :
+35 :  syscall print_int Counter5 None
+label 36 :
+36 :  return None None None
