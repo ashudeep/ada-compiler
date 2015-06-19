@@ -41,40 +41,39 @@ Important files and folders-
 7. **Output_3addr.txt**- Contains the three address code for test file
 8. **recordtype.py**- Standard Python file included to use python records
 9. **Spim_Code.asm**- Contains the mips assembly code for the test program
-10. **final_examples**:
-	Contains the test program that we have run.
+10. **final_examples**- Contains the test program that we have run.
 
-        a. 1_for.ada 		- 		contains a basic for loop that prints numbers from 1 to 4
-						(For loop and printing integers implemented)
-						
-        b. 2_twofives_proc_while.ada    - 	tries to express every number as 2*x+ 5*y
-						(procedure calling , while loop , if else implemented)
-						
-        c. 3_sort_insertion_array_for_expr.ada- iterative program to sort array.
-						(multiple for loop implemented)
-						
-        d. 4_2-darray.ada		- 	Creates a two dimensional array and assigns value to thme and prints them.
-						(2- dimensional array implemented)
-						
-        e. 5_pythagorus_nestedfor_proc.ada -	 Checks for all pythagorean triplets b/w 1 and 20
-							(Nested for loops upto 3 level)
-							
-        f. 6_2refvar.ada  - 			Swaps 2 numbers
-						( Demonstrates call by value and call by reference (with multiple outputs) in ada)
-						
-        g. 7_fact_recursion.ada - 		Calculates and Prints the Factorial of 6	(Demonstrates Recursion)
-	
-        h. 8_evenodd_mutualrecursion.ada - 	Checks whether a number is odd or even.
-						(Demonstrates mutual recursion)
-						
-        i. 9_primes_nestedproc.ada	-	Prints prime numbers b/w  2 to 100
-						(For loop and nesting of procedures implemented)
-						
-        j. 10_package.ada		- 	Simple package structure implemented
-						(Procedure defined in package called in the same file)
-						
-        k. error_1.ada			-	Demonstrates error(type error during assignment)
-	
+>a. 1_for.ada 		- 		contains a basic for loop that prints numbers from 1 to 4
+>					(For loop and printing integers implemented)
+>					
+>b. 2_twofives_proc_while.ada    - 	tries to express every number as 2*x+ 5*y
+>					(procedure calling , while loop , if else implemented)
+>					
+>c. 3_sort_insertion_array_for_expr.ada- iterative program to sort array.
+>					(multiple for loop implemented)
+>					
+>d. 4_2-darray.ada		- 	Creates a two dimensional array and assigns value to thme and prints them.
+>					(2- dimensional array implemented)
+>					
+>e. 5_pythagorus_nestedfor_proc.ada -	 Checks for all pythagorean triplets b/w 1 and 20
+>						(Nested for loops upto 3 level)
+>						
+>f. 6_2refvar.ada  - 			Swaps 2 numbers
+>					( Demonstrates call by value and call by reference (with multiple outputs) in ada)
+>					
+>g. 7_fact_recursion.ada - 		Calculates and Prints the Factorial of 6	(Demonstrates Recursion)
+>
+>h. 8_evenodd_mutualrecursion.ada - 	Checks whether a number is odd or even.
+>					(Demonstrates mutual recursion)
+>					
+>i. 9_primes_nestedproc.ada	-	Prints prime numbers b/w  2 to 100
+>					(For loop and nesting of procedures implemented)
+>					
+>j. 10_package.ada		- 	Simple package structure implemented
+>					(Procedure defined in package called in the same file)
+>					
+>k. error_1.ada			-	Demonstrates error(type error during assignment)
+
 
 ------------------------------------------------------------------------------------------------------
 
